@@ -41,6 +41,7 @@ python idorbuster.py scan \
 git clone https://github.com/cxiolz/idorbuster.git
 cd idorbuster
 pip install -r requirements.txt
+```
 
 ---
 
