@@ -14,6 +14,34 @@ Ferramenta automática para detecção de **IDOR (Insecure Direct Object Referen
 
 ---
 
+
+## 🚀 Demonstração no terminal
+
+```bash
+$ python idorbuster.py --help                                 
+                                                                                                                                                                       
+ Usage: idorbuster.py [OPTIONS]                                                                                                                                        
+                                                                                                                                                                       
+ Executa o scanner de IDOR na URL informada                                                                                                                            
+                                                                                                                                                                       
+╭─ Options ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ *  --url                       TEXT     URL com {id} [default: None] [required]                                                                                     │
+│    --method                    TEXT     Método HTTP [default: GET]                                                                                                  │
+│    --auth-header               TEXT     Header de autenticação [default: None]                                                                                      │
+│    --cookie                    TEXT     Cookie de sessão [default: None]                                                                                            │
+│ *  --id-range                  TEXT     Intervalo de ID (ex: 1-1000) [default: None] [required]                                                                     │
+│    --concurrency               INTEGER  Número de threads [default: 5]                                                                                              │
+│    --output                    TEXT     Arquivo de saída JSON [default: report.json]                                                                                │
+│    --install-completion                 Install completion for the current shell.                                                                                   │
+│    --show-completion                    Show completion for the current shell, to copy it or customize the installation.                                            │
+│    --help                               Show this message and exit.                                                                                                 │
+╰─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+
+
+```
+
+---
+
 ## 🛠️ Como usar
 
 ```bash
